@@ -9,10 +9,12 @@ http://localhost:8080/insecure/1%20OR%201=1
 
 Response:
 
+```
 Jonathan: Developer
 Lee: Team Leader
 Phuong: Developer
 Alice: Tester
+```
 
 Open secure endpoint: http://localhost:8080/secure/1
 That endpoint uses Spring Data JPA extracted data from JpaRepository
