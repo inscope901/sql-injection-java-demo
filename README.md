@@ -1,7 +1,7 @@
 Open folder sql-injection-demo by IntelliJ IDEA and Run.
 
-Open endpoint http://localhost:8080/insecure/1 in Browser
-In database have SQL query: "select * from employee where id = " + id (id here is 1)
+Open endpoint http://localhost:8080/insecure/1 in Browser.
+In database have SQL query: "select * from employee where id = " + id (id here is 1).
 Response return : 'Jonathan: Developer'
 
 When inject id: 1 OR 1=1 will SQL query is select * from employee where id = 1 OR 1=1 ,return all records employee in database
